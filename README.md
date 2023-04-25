@@ -8,7 +8,7 @@
 1. 参考此[教程](https://learn.microsoft.com/zh-cn/azure/cognitive-services/cognitive-services-apis-create-account?tabs=speech%2Canomaly-detector%2Clanguage-service%2Ccomputer-vision%2Cwindows)，
 获取 `Subscription Key` 和对应的 `region`。
 2. 配置到 [service/.env](./service/.env.example) 中的 `AZURE_SUBSCRIPTION_KEY` 和 `AZURE_SPEECH_REGION`
-3. 重新部署，然后起飞！
+3. 重新部署，然后起飞！！
 
 ![speech-tip](./docs/speech-tip.png)
 
