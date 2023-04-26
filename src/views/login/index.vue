@@ -194,9 +194,7 @@ const heandlerWechat = () => {
     </div>
   </n-form-item>
 </n-form>
-      </div>
-    </div>
-  </div>
+
 </template>
 
 <style lang="less" scoped>
