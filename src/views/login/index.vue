@@ -167,29 +167,31 @@ const heandlerWechat = () => {
             </n-input>
           </n-form-item>
 
-         <n-form-item>
-            <n-button type="primary" size="large" :loading="loading" block @click="handleSubmit">
-              登录
-            </n-button>
-          </n-form-item>
-          <n-form-item class="default-color">
-            <div class="flex view-account-other">
-              <div class="flex-initial">
-                <span>其它登录方式</span>
-              </div>
-              <div class="flex-initial mx-2">
-                <a href="javascript:">
-                  <n-icon size="24" color="#2d8cf0" @click="heandlerWechat">
-                    <LogoWechat />
-                  </n-icon>
-                </a>
-              </div>
-            </div>
-          </n-form-item>
-        </n-form>
-      </div>
+         <n-form-item class="default-color">
+  <div class="flex view-account-other">
+    <div class="flex-initial">
+      <span>其它登录方式</span>
+    </div>
+    <div class="flex-initial mx-2">
+      <a href="javascript:">
+        <n-icon size="24" color="#2d8cf0" @click="heandlerWechat">
+          <LogoWechat />
+        </n-icon>
+      </a>
     </div>
   </div>
+  <div class="flex justify-center my-3">
+    <span class="text-gray-400">第一行文字</span>
+  </div>
+  <div class="flex justify-center">
+    <span class="text-gray-400">第二行文字</span>
+  </div>
+  <n-form-item>
+    <n-button type="primary" size="large" :loading="loading" block @click="handleSubmit">
+      登录
+    </n-button>
+  </n-form-item>
+</n-form>
 </template>
 
 <style lang="less" scoped>
