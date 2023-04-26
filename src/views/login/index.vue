@@ -174,25 +174,32 @@ const heandlerWechat = () => {
           </n-form-item>
           <n-form-item class="default-color">
             <div class="flex view-account-other">
-              <div class="flex-initial">
-                <span>其它登录方式</span>
-              </div>
-              <div class="flex-initial mx-2">
-                <a href="javascript:">
-                  <n-icon size="24" color="#2d8cf0" @click="heandlerWechat">
-                    <LogoWechat />
-                  </n-icon>
-                </a>
-              </div>
-            </div>
-          </n-form-item>
-        </n-form>
-      </div>
+  <div class="flex-initial">
+    <span>其它登录方式</span>
+  </div>
+  <div class="flex-initial mx-2">
+    <a href="javascript:">
+      <n-icon size="24" color="#2d8cf0" @click="heandlerWechat">
+        <LogoWechat />
+      </n-icon>
+    </a>
+  </div>
+  <div class="flex-initial">
+    <div class="centered-text">
+      <div>客服微信：POPGPT</div>
+      <div>泡泡公益：抑郁症等病患可凭医院病情证明联系客服免费使用</div>
     </div>
   </div>
+</div>
 </template>
 
 <style lang="less" scoped>
+.centered-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .view-account-top-logo {
   display: flex;
   justify-content: center;
