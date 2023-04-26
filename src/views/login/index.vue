@@ -193,6 +193,11 @@ const heandlerWechat = () => {
 </template>
 
 <style lang="less" scoped>
+.view-account-top-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
   .view-account {
     display: flex;
     flex-direction: column;
