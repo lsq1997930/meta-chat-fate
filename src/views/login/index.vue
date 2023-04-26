@@ -183,13 +183,19 @@ const heandlerWechat = () => {
                     <LogoWechat />
                   </n-icon>
                 </a>
-              <div class="flex justify-center my-3">
-    <span class="text-gray-400">第一行文字</span>
+              </div>
+            </div>
+						<div class="flex justify-center my-3">
+                  <span class="text-gray-400">第一行文字</span>
+              </div>
+                 <div class="flex justify-center">
+               <span class="text-gray-400">第二行文字</span>
+             </div>
+          </n-form-item>
+        </n-form>
+      </div>
+    </div>
   </div>
-  <div class="flex justify-center">
-    <span class="text-gray-400">第二行文字</span>
-  </div>
-</n-form-item>
 </template>
 
 <style lang="less" scoped>
