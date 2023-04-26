@@ -183,11 +183,6 @@ const heandlerWechat = () => {
                     <LogoWechat />
                   </n-icon>
                 </a>
-								<div class="flex justify-center">
-          <span>客服微信：POPGPT</span>
-        </div>
-        <div class="flex justify-center">
-          <span>泡泡公益：抑郁症等病患可凭医院病情证明联系客服免费使用</span>
               </div>
             </div>
           </n-form-item>
