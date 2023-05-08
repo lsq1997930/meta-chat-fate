@@ -187,10 +187,10 @@ const heandlerWechat = () => {
             </div>
           </n-form-item>
 					<n-form-item class="text-center">
-         <span>客服微信：POPGPT</span>
+         <span></span>
          </n-form-item>
       <n-form-item class="text-center">
-    <span>泡泡公益：抑郁症等病患可凭病情证明联系客服免费使用</span>
+    <span></span>
   </n-form-item>
         </n-form>
       </div>
