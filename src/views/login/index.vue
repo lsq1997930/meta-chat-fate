@@ -187,10 +187,10 @@ const heandlerWechat = () => {
             </div>
           </n-form-item>
 					<n-form-item class="text-center">
-         <span></span>
+         <span>GPT00 &CHATGPT 中文版  辅助学业、工作、生活等方面的强大工具</span>
          </n-form-item>
       <n-form-item class="text-center">
-    <span></span>
+    <span>温馨提示：网站用户禁止利用该产品服务危害国家安全、法律、泄露国家秘密等及传播淫秽色情低俗、暴力恐怖迷信等不良信息。用户相关违法行为一经发现将进行严肃处理。</span>
   </n-form-item>
         </n-form>
       </div>
